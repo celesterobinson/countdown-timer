@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-weight: 100;
 }
+
 header {
   font-family: 'adobe-clean', sans-serif;
   background-color: #272727;
@@ -10,11 +11,14 @@ header {
   padding: 16px;
 }
 
+html {
+  background-color: #121212;
+}
+
 main {
   font: 1rem 'adobe-clean', sans-serif;
   padding: 16px;
   height: 100vh;
-  background-color: #121212;
 }
 
 h2 {
