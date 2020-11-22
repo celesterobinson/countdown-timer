@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+header {
+  font-family: 'adobe-clean', sans-serif;
+  background-color: #272727;
+  color: #e8e8e8;
+  padding: 16px;
+}
+
+main {
+  font: 1rem 'adobe-clean', sans-serif;
+  padding: 16px;
+  height: 100vh;
+  background-color: #121212;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #e8e8e8;
+  font-weight: 700;
+}
+
+label {
+  margin: 16px 0 5px 0;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #1f1f1f;
+  color: #a6a6a6;
+  width: 360px;
+  height: 360px;
+  border-radius: 4px;
+  padding: 0 16px 16px 16px;
+}
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+  min-width: 50%;
+
+}
+
+#submit {
+  width: 30%;
+  margin-top: 24px;
+  display: inline;
+}
+#submit input {
+  background-color: #1d7eb5;
+  border-color: #1d7db5e5;
+  color: white;
+  font-size: 16px;
+}
+
+#error_message {
+  color: #cc0000;
+  width: 100%;
+}
+
+.eventCard {
+  align-items: center;
+}
+
+.eventCard h1 {
+}

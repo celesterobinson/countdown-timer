@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <header id="page_header">
+    <h1>Event Countdown</h1>
+  </header>
+
+  <main>
+    <h2>Create Event</h2>
+    <div id="cards">
+      <form class="card">
+        <label for="name" height="30px">Name</label>
+        <input type="text" name="name" placeholder="Sandra's Wedding" id="event_name">
+        <label for="date" height="30px">Date</label>
+        <input type="date" name="date" id="event_date">
+        <label for="time" height="30px">Time (optional)</label>
+        <input type="time" name="time" id="event_time">
+        <div id="submit">
+          <input id="submit_button" type="submit" value="Start">
+        </div>
+        <span id="error_message"></span>
+      </form>
+    </div>
+    
+    <script src="index.js"></script>
+  </main>
+
+</body>
+</html>
